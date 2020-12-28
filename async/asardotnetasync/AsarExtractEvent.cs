@@ -13,7 +13,7 @@ namespace asardotnetasync {
             Index = index;
             Total = total;
 
-            Progress = Math.Round(index / total * 100, 2);
+            Progress = Math.Round(index / total, 2);
         }
     }
 }
